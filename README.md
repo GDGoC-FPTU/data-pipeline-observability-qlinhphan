@@ -4,14 +4,10 @@
 **Student Email:** qlinhphan@gmail.com
 **Name:** Phan Xuân Quang Linh
 
-**Student Email:** ai20k-2a202600492@student.fpt.edu.vn
-**Name:** Phan Xuân Quang Linh
-
 ---
 
 ## Mo ta
 
-(Mo ta ngan gon bai lab va nhung gi ban da lam)
 Bài lab này hướng dẫn xây dựng một pipeline ETL tự động để xử lý dữ liệu sản phẩm từ file JSON. Pipeline thực hiện các bước: đọc dữ liệu, kiểm tra và loại bỏ các record không hợp lệ (giá <= 0 hoặc thiếu category), chuẩn hóa category, tính giá sau giảm giá 10%, thêm metadata thời gian xử lý và xuất ra file CSV. Sau đó, sử dụng agent mô phỏng để kiểm tra tác động của chất lượng dữ liệu đến kết quả trả lời của AI agent.
 
 ---
@@ -56,7 +52,6 @@ python agent_simulation.py
 
 ## Ket qua
 
-(Tom tat ket qua: bao nhieu records da xu ly, bao nhieu bi loai, v.v.)
 Số record đầu vào: 5 (raw_data.json)
 Số record hợp lệ sau ETL: 3
 Số record bị loại: 2 (do price <= 0 hoặc thiếu category)
